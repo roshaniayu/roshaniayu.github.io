@@ -1,0 +1,140 @@
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #F9F2E8;
+    padding: 3em 3em 0 3em;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+a:active{
+    color: #023e63;
+}
+.container {
+    background-color: #ffffff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.05);
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.05);
+}
+
+.row {
+    position: relative;
+    display: flex;
+    height: 92vh;
+}
+
+.row-2 {
+    position: relative;
+    display: flex;
+}
+
+.column {
+    height: 100%;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middle-2 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.right-2 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.padding {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.padding-2 {
+    padding-right: 80px;
+}
+
+.greeting {
+    color: rgb(76, 177, 190);
+    margin: 0;
+    padding-bottom: 7px;
+}
+
+.title {
+    font-size: 5em;
+    margin: 0;
+}
+
+.get-to-know {
+	background-color:rgb(76, 177, 190);
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	border-radius:28px;
+	display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+	padding: 16px 31px;
+    text-decoration: none;
+    margin-top: 23px;
+}
+
+.get-to-know:hover {
+	background-color:rgb(63, 147, 158);
+}
+
+.get-to-know:active {
+	background-color:rgb(56, 130, 139);
+}
+
+.img-1 {
+    width: 35vw;
+}
+
+.reveal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+    color: black;
+}
+
+.emoticon {
+    color: rgb(76, 177, 190);
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.copyright {
+    text-align: right;
+    padding: 0.5em;
+}
