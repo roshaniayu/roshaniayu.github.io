@@ -9,7 +9,7 @@ a {
     font-weight: bold;
 }
 
-a:active{
+a:active {
     color: #023e63;
 }
 
@@ -37,7 +37,7 @@ hr {
 .row-2 {
     position: relative;
     display: flex;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 .row-3 {
@@ -49,7 +49,7 @@ hr {
 .row-4 {
     position: relative;
     display: flex;
-    height: 40vh;
+    height: 30vh;
 }
 
 .row-5 {
@@ -57,6 +57,12 @@ hr {
     display: flex;
     height: 14vh;
     padding-top: 20px;
+}
+
+.row-6 {
+    position: relative;
+    display: flex;
+    height: 40vh;
 }
 
 .column {
@@ -85,7 +91,7 @@ hr {
 }
 
 .left-4 {
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,7 +141,7 @@ hr {
 }
 
 .right-4 {
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,13 +225,25 @@ hr {
     color: rgb(76, 177, 190);
 }
 
+.blue {
+    color: rgb(76, 177, 190);
+}
+
+.blue:hover {
+    color: rgb(63, 147, 158);
+}
+
+.blue:active {
+    color: rgb(56, 130, 139);
+}
+
 .date {
     color: rgb(76, 177, 190);
     margin-top: 10px;
 }
 
 .logo {
-    width: 5.5vw;
+    width: 5vw;
 }
 
 .project {
@@ -240,4 +258,8 @@ hr {
 .copyright {
     text-align: right;
     padding: 0.5em;
+}
+
+.center {
+    text-align: center;
 }
