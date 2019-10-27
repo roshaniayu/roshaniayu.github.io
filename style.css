@@ -12,6 +12,12 @@ a {
 a:active{
     color: #023e63;
 }
+
+hr {
+    width: 60px;
+    border: 0.6px solid black;
+}
+
 .container {
     background-color: #ffffff;
     -webkit-border-radius: 10px;
@@ -31,6 +37,26 @@ a:active{
 .row-2 {
     position: relative;
     display: flex;
+    margin-top: 50px;
+}
+
+.row-3 {
+    position: relative;
+    display: flex;
+    height: 100%;
+}
+
+.row-4 {
+    position: relative;
+    display: flex;
+    height: 40vh;
+}
+
+.row-5 {
+    position: relative;
+    display: flex;
+    height: 14vh;
+    padding-top: 20px;
 }
 
 .column {
@@ -48,7 +74,43 @@ a:active{
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    align-content: flex-start;
+}
+
+.left-3 {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.left-4 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.middle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middle-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.middle-3 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
 }
 
 .right {
@@ -58,27 +120,34 @@ a:active{
     justify-content: center;
 }
 
-.middle-2 {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-}
-
 .right-2 {
     width: 35%;
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    align-content: flex-start;
+}
+
+.right-3 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.right-4 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .padding {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .padding-2 {
-    padding-right: 80px;
+    padding-right: 90px;
 }
 
 .greeting {
@@ -94,9 +163,9 @@ a:active{
 
 .get-to-know {
 	background-color:rgb(76, 177, 190);
-	-moz-border-radius: 28px;
-	-webkit-border-radius: 28px;
-	border-radius:28px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius:30px;
 	display: inline-block;
     cursor: pointer;
     color: #ffffff;
@@ -106,15 +175,22 @@ a:active{
 }
 
 .get-to-know:hover {
-	background-color:rgb(63, 147, 158);
+	background-color: rgb(63, 147, 158);
 }
 
 .get-to-know:active {
-	background-color:rgb(56, 130, 139);
+	background-color: rgb(56, 130, 139);
 }
 
 .img-1 {
     width: 35vw;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
 
 .reveal {
@@ -123,6 +199,7 @@ a:active{
     justify-content: center;
     padding-top: 5px;
     color: black;
+    width: 35vw;
 }
 
 .emoticon {
@@ -132,6 +209,32 @@ a:active{
 
 .bold {
     font-weight: bold;
+}
+
+#experiences {
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    color: rgb(76, 177, 190);
+}
+
+.date {
+    color: rgb(76, 177, 190);
+    margin-top: 10px;
+}
+
+.logo {
+    width: 5.5vw;
+}
+
+.project {
+    width: 40vw;
+}
+
+.arrow {
+    color: rgb(76, 177, 190);
+    padding-left: 7px;
 }
 
 .copyright {
