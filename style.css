@@ -167,6 +167,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-content: center;
+    align-items: center;
 }
 
 .right-4 {
@@ -352,6 +353,15 @@ hr {
         font-size: 12px;
     }
 
+
+    .row {
+        height: 94vh;
+    }
+
+    .row-5 {
+        height: 13vh;
+    }
+
     .title {
         font-size: 2.5em;
     }
@@ -363,14 +373,6 @@ hr {
 
     .company {
         font-size: 12px;
-    }
-
-    .row {
-        height: 94vh;
-    }
-
-    .row-5 {
-        height: 13vh;
     }
 
     .center {
@@ -461,6 +463,10 @@ hr {
     }
 
     .left-4 {
+        width: 50%;
+    }
+
+    .left-5 {
         width: 50%;
     }
 
