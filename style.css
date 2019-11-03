@@ -49,7 +49,7 @@ hr {
 .row-4 {
     position: relative;
     display: flex;
-    height: 30vh;
+    height: 43vh;
 }
 
 .row-5 {
@@ -267,4 +267,29 @@ hr {
 
 .center {
     text-align: center;
+    padding: 2em 0 6em 0;
+}
+
+.center-2 {
+    text-align: left;
+    padding: 5em 0 5.2em 0;
+}
+
+.socmed {
+    font-size: 18px;
+    color: white;
+    background-color: rgb(76, 177, 190);
+    padding: 9px;
+    margin: 2px;
+    -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.socmed:hover {
+    background-color: rgb(63, 147, 158);
+}
+
+.socmed:active {
+	background-color: rgb(56, 130, 139);
 }
