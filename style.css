@@ -66,7 +66,7 @@ hr {
 .row-4 {
     position: relative;
     display: flex;
-    height: 78vh;
+    height: 100vh;
     flex-direction: column;
 }
 
