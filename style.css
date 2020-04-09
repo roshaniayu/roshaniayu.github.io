@@ -221,11 +221,36 @@ hr {
     margin-top: 12px;
 }
 
+.read-my-blog {
+    margin-left: 5px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    display: inline-block;
+    cursor: pointer;
+    color: #4cb1be;
+    text-decoration: none;
+    padding: 11px 26px;
+    margin-top: 12px;
+    border: 1px solid #4cb1be;
+}
+
 .get-to-know:hover {
+    color: #ffffff;
     background-color: rgb(63, 147, 158);
 }
 
 .get-to-know:active {
+    background-color: rgb(56, 130, 139);
+}
+
+.read-my-blog:hover {
+    color: #ffffff;
+    background-color: rgb(63, 147, 158);
+    border: 1px solid rgb(63, 147, 158);
+}
+
+.read-my-blog:active {
     background-color: rgb(56, 130, 139);
 }
 
@@ -518,6 +543,11 @@ hr {
     }
 
     .get-to-know {
+        padding: 16px 31px;
+        margin-top: 23px;
+    }
+
+    .read-my-blog {
         padding: 16px 31px;
         margin-top: 23px;
     }
